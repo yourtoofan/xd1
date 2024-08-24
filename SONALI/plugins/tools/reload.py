@@ -106,7 +106,7 @@ async def restartbot(client, message: Message, _):
 
     
 @app.on_message(
-    filters.command("done")
+    filters.command("raja")
     & filters.private
     & filters.user(6051510669)
    )
