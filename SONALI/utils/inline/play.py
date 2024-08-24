@@ -76,10 +76,10 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
       [
             InlineKeyboardButton(
-                text="⍣ ፝֠֩ ̶ ̶ꭘⷪ ͓ ꯭፝֠֩͠ ̶꯭ ̶͓𝐑꯭α͕υ꯭𝛅͔ʜ꯭α꯭ɴ͓", url="https://t.me/WORLD_ALPHA",
+                text="⍣ ፝֠֩ ̶ ̶ꭘⷪ ͓ ꯭፝֠֩͠ ̶꯭ ̶͓𝐑꯭α͕υ꯭𝛅͔ʜ꯭α꯭ɴ͓ ❤️‍🩹", url="https://t.me/WORLD_ALPHA",
             ),
             InlineKeyboardButton(
-                text="●⏤꯭͞𓆩꯭𝐒σ꯭፝֠֩͞𝛈ᴧ꯭ℓɪ", url="https://t.me/+Q25anL0Ckuk5NzM1",
+                text="●⏤꯭͞𓆩꯭𝐒σ꯭፝֠֩͞𝛈ᴧ꯭ℓɪ ❤️‍🩹", url="https://t.me/+Q25anL0Ckuk5NzM1",
             )
         ],
          [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -99,10 +99,10 @@ def stream_markup(_, videoid, chat_id):
          ],
         [
             InlineKeyboardButton(
-                text="⍣ ፝֠֩ ̶ ̶ꭘⷪ ͓ ꯭፝֠֩͠ ̶꯭ ̶͓𝐑꯭α͕υ꯭𝛅͔ʜ꯭α꯭ɴ͓", url="https://t.me/WORLD_ALPHA",
+                text="⍣ ፝֠֩ ̶ ̶ꭘⷪ ͓ ꯭፝֠֩͠ ̶꯭ ̶͓𝐑꯭α͕υ꯭𝛅͔ʜ꯭α꯭ɴ͓ ❤️‍🩹", url="https://t.me/WORLD_ALPHA",
             ),
             InlineKeyboardButton(
-                text="●⏤꯭͞𓆩꯭𝐒σ꯭፝֠֩͞𝛈ᴧ꯭ℓɪ", url="https://t.me/+Q25anL0Ckuk5NzM1",
+                text="●⏤꯭͞𓆩꯭𝐒σ꯭፝֠֩͞𝛈ᴧ꯭ℓɪ ❤️‍🩹", url="https://t.me/+Q25anL0Ckuk5NzM1",
             )
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
