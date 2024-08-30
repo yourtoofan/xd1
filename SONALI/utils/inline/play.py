@@ -62,6 +62,12 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
 
     buttons = [
         [
+            InlineKeyboardButton(
+                text=f"{played} {bar} {dur}",
+                callback_data="GetTimer",
+            )
+        ],
+        [
             InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
             InlineKeyboardButton(text="II", callback_data=f"ADMIN Pause|{chat_id}"),
             InlineKeyboardButton(text="↻", callback_data=f"ADMIN Replay|{chat_id}"),
@@ -70,25 +76,27 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text=f"{played} {bar} {dur}",
-                callback_data="GetTimer",
-            )
-        ],
-      [
-            InlineKeyboardButton(
-                text="⍣ ፝֠֩ ̶ ̶ꭘⷪ ͓ ꯭፝֠֩͠ ̶꯭ ̶͓𝐑꯭α͕υ꯭𝛅͔ʜ꯭α꯭ɴ͓ ꯭❤️‍🩹꯭", url="https://t.me/WORLD_ALPHA",
+                text="✰ 𝖡ᴧ፝֠֩ʙꭎ ✰",
+                url=f"https://t.me/WORLD_ALPHA",
             ),
             InlineKeyboardButton(
-                text="●⏤꯭͞𓆩꯭𝐒σ꯭፝֠֩͞𝛈ᴧ꯭ℓɪ꯭  ꯭❤️‍🩹꯭", url="https://t.me/+Q25anL0Ckuk5NzM1",
-            )
+                text="✰ 𝛅ᴏ፝֠֩𝛈ᴧ ✰",
+                url=f"https://t.me/+Q25anL0Ckuk5NzM1",
+            ),
         ],
-         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
-        ]
-
+        [
+            InlineKeyboardButton(
+                text="✰ 𝛅ꭎᴘ፝֠֩ᴘσꝛᴛ ✰",
+                url=f"t.me/PURVI_SUPPORT",
+            ),
+        ],
+        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
+    ]
     return buttons
+        
 
 
-def stream_markup(_, videoid, chat_id):
+def stream_markup(_, chat_id):
     buttons = [
         [
             InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
@@ -96,19 +104,37 @@ def stream_markup(_, videoid, chat_id):
             InlineKeyboardButton(text="↻", callback_data=f"ADMIN Replay|{chat_id}"),
             InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
-         ],
-        [
+        ],
+                 [
             InlineKeyboardButton(
-                text="⍣ ፝֠֩ ̶ ̶ꭘⷪ ͓ ꯭፝֠֩͠ ̶꯭ ̶͓𝐑꯭α͕υ꯭𝛅͔ʜ꯭α꯭ɴ͓ ꯭❤️‍🩹꯭", url="https://t.me/WORLD_ALPHA",
+
+                text="✰ 𝖡ᴧ፝֠֩ʙꭎ ✰",
+
+                url=f"https://t.me/WORLD_ALPHA",
+
             ),
             InlineKeyboardButton(
-                text="●⏤꯭͞𓆩꯭𝐒σ꯭፝֠֩͞𝛈ᴧ꯭ℓɪ꯭ ꯭ ꯭❤️‍🩹꯭", url="https://t.me/+Q25anL0Ckuk5NzM1",
-            )
+
+                text="✰ 𝛅ᴏ፝֠֩𝛈ᴧ ✰",
+
+                url=f"https://t.me/+Q25anL0Ckuk5NzM1",
+
+            ),
+        ],
+
+                 [
+            InlineKeyboardButton(
+
+                text="✰ 𝛅ꭎᴘ፝֠֩ᴘσꝛᴛ ✰",
+
+                url=f"t.me/PURVI_SUPPORT",
+
+            ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
-
     return buttons
+
 
 
 def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
