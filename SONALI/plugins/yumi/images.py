@@ -1,38 +1,28 @@
 import requests
 from requests import get 
 from SONALI import app
+from config import BANNED_USERS
 from pyrogram import filters
 from pyrogram.types import InputMediaPhoto
 
-@app.on_message(filters.command(["image"], prefixes=["/", "!", "%", ",", "", ".", "@", "#"]))
-async def pinterest(_, message):
-     chat_id = message.chat.id
+@app.on_message(filters.command(["image"], prefixes=["/", "!", "."]) & ~BANNED_USERS)
+async def image_from_bing(_, message):
+    if len(message.command) < 2 and not message.reply_to_message:
+        return await message.reply_text("**ɢɪᴠᴇ ɪᴍᴀɢᴇ ɴᴀᴍᴇ ғᴏʀ sᴇᴀʀᴄʜ 🔍**")
 
-     try:
-       query= message.text.split(None,1)[1]
-     except:
-         return await message.reply("**ɢɪᴠᴇ ɪᴍᴀɢᴇ ɴᴀᴍᴇ ғᴏʀ sᴇᴀʀᴄʜ 🔍**")
+    if message.reply_to_message and message.reply_to_message.text:
+        query = message.reply_to_message.text
+    else:
+        query = " ".join(message.command[1:])
 
-     images = get(f"https://pinterest-api-one.vercel.app/?q={query}").json()
+    messagesend = await message.reply_text("**🔍 sᴇᴀʀᴄʜɪɴɢ ғᴏʀ ɪᴍᴀɢᴇs...**")
 
-     media_group = []
-     count = 0
-
-     msg = await message.reply(f"sᴄʀᴀᴘɪɴɢ ɪᴍᴀɢᴇs ғʀᴏᴍ ᴘɪɴᴛᴇʀᴇᴛs...")
-     for url in images["images"][:6]:
-                  
-          media_group.append(InputMediaPhoto(media=url))
-          count += 1
-          await msg.edit(f"=> ᴏᴡᴏ sᴄʀᴀᴘᴇᴅ ɪᴍᴀɢᴇs {count}")
-
-     try:
-        
-        await app.send_media_group(
-                chat_id=chat_id, 
-                media=media_group,
-                reply_to_message_id=message.id)
-        return await msg.delete()
-
-     except Exception as e:
-           await msg.delete()
-           return await message.reply(f"ᴇʀʀᴏʀ : {e}")
+    media_group = []
+    for url in api.bing_image(query, 6):
+        media_group.append(InputMediaPhoto(media=url))
+    await messagesend.edit(f"**ᴜᴘʟᴏᴀᴅɪɴɢ...**")
+    try:
+        await app.send_media_group(message.chat.id, media_group)
+        await messagesend.delete()
+    except Exception as e:
+        await messagesend.edit(e)
