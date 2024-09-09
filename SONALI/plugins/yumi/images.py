@@ -2,6 +2,7 @@ from pyrogram.types import InputMediaPhoto
 from config import BANNED_USERS
 from SONALI import app
 from pyrogram import filters
+from TheApi import api
 
 
 @app.on_message(filters.command(["image"], prefixes=["/", "!", "."]) & ~BANNED_USERS)
