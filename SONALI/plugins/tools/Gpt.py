@@ -35,4 +35,3 @@ async def gptAi(client, message):
     else:
         response = await chat_with_api("gpt", split_text[1])
         await message.reply_text(response)
-﻿
