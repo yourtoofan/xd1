@@ -55,7 +55,7 @@ async def connect_to_chat(user_id: int, chat_id: int):
         {'$set': {'chat_id': chat_id}},
         upsert=True
     )
-    await connectdb
+    
     
     return result.modified_count > 0 or result.upserted_id is not None
  
