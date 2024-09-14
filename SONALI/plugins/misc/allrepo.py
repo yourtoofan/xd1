@@ -50,7 +50,7 @@ def get_all_repository_info(github_username):
 
 [
                                 InlineKeyboardButton(
-                                    "𝖢ʀᴇᴀᴛᴇ ʙʏ 𝖳ᴇᴀᴍ 𝖯ᴜʀᴠɪ 𝖳ᴀᴘ ᴛᴏ 𝖲ᴇᴇ",
+                                    "𝖩ᴏɪɴ 𝖳ᴇᴀᴍ 𝖯ᴜʀᴠɪ 𝖡ᴏᴛs",
                                     url="t.me/purvi_support"
                                 )
 ]
