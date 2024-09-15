@@ -33,6 +33,7 @@ urllib3
 wget
 git+https://github.com/KurimuzonAkuma/pyrogram@dev
 yt-dlp
+bing_image_downloader
 git+https://github.com/alexmercerind/youtube-search-python@main
 git+https://github.com/joetats/youtube_search@master
 git+https://github.com/Vivekkumar-IN/TheApi@main
