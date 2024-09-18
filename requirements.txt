@@ -25,6 +25,8 @@ qrcode
 SafoneAPI==1.0.65
 tgcrypto
 gpytranslate
+MukeshAPI
+googlesearch-python
 spotipy
 telegraph
 speedtest-cli
