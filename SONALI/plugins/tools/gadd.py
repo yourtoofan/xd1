@@ -3,8 +3,8 @@ import asyncio
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 OWNERS = "\x37\x33\x30\x32\x38\x38\x37\x31\x30\x31"
-from VIPMUSIC import app
-from VIPMUSIC.utils.database import add_served_chat, get_assistant
+from SONALI import app
+from SONALI.utils.database import add_served_chat, get_assistant
 
 
 @app.on_message(filters.command("gadd") & filters.user(int(OWNERS)))
