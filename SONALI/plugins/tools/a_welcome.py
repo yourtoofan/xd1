@@ -10,6 +10,36 @@ from pyrogram.types import ChatMemberUpdated
 from SONALI import app
 from SONALI.utils.database import get_assistant
 
+LOGGER = getLogger(__name__)
+
+
+class AWelDatabase:
+    def __init__(self):
+        self.data = {}
+
+    async def find_one(self, chat_id):
+        return chat_id in self.data
+
+    async def add_wlcm(self, chat_id):
+        if chat_id not in self.data:
+            self.data[chat_id] = {"state": "on"}  # Default state is "on"
+
+    async def rm_wlcm(self, chat_id):
+        if chat_id in self.data:
+            del self.data[chat_id]
+
+
+wlcm = AWelDatabase()
+
+
+class temp:
+    ME = None
+    CURRENT = 2
+    CANCEL = False
+    MELCOW = {}
+    U_NAME = None
+    B_NAME = None
+
 # Define a dictionary to track the last message timestamp for each user
 user_last_message_time = {}
 user_command_count = {}
