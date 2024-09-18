@@ -18,7 +18,6 @@ async def google(bot, message):
     else:
         user_input = " ".join(message.command[1:])
     b = await message.reply_text("Sᴇᴀʀᴄʜɪɴɢ ᴏɴ Gᴏᴏɢʟᴇ....")
-    query = split[1]
     try:
         result = await gsearch.async_search(query)
         keyboard = ikb(
