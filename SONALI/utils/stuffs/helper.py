@@ -74,25 +74,17 @@ Gʀᴏᴜᴘ ᴄᴏᴍᴍᴀɴᴅꜱ:
 Exᴛʀᴀ ᴄᴏᴍᴍᴀɴᴅꜱ:
 
 ⦿ /math ➠ sᴏʟᴠᴇs ᴍᴀᴛʜᴇᴍᴀᴛɪᴄᴀʟ ᴘʀᴏʙʟᴇᴍs ᴀɴᴅ ᴇǫᴜᴀᴛɪᴏɴs.
-⦿ /blackpink ➠ ɢᴇɴᴇʀᴀᴛᴇs ᴀ ʙʟᴀᴄᴋᴘɪɴᴋ-sᴛʏʟᴇ ʟᴏɢᴏ.
-⦿ /carbon ➠ ɢᴇɴᴇʀᴀᴛᴇs ᴀ ᴄᴀʀʙᴏɴ ᴄᴏᴅᴇ ɪᴍᴀɢᴇ ғʀᴏᴍ ᴀ ᴄᴏᴅᴇ sɴɪᴘᴘᴇᴛ.
-⦿ /speedtest ➠ ᴍᴇᴀsᴜʀᴇs ᴛʜᴇ ɪɴᴛᴇʀɴᴇᴛ sᴘᴇᴇᴅ.
-⦿ /reverse ➠ ʀᴇᴠᴇʀsᴇs ᴀ ɢɪᴠᴇɴ ᴛᴇxᴛ.
-⦿ /webss ➠ ᴛᴀᴋᴇs ᴀ sᴄʀᴇᴇɴsʜᴏᴛ ᴏғ ᴀ ᴡᴇʙsɪᴛᴇ.
-⦿ /paste ➠ ᴜᴘʟᴏᴀᴅs ᴀ ᴛᴇxᴛ sɴɪᴘᴘᴇᴛ ᴛᴏ ᴛʜᴇ ᴄʟᴏᴜᴅ ᴀɴᴅ ɢɪᴠᴇs ᴀ ʟɪɴᴋ.
 ⦿ /tgm ➠ ᴜᴘʟᴏᴀᴅs ᴀ ᴘʜᴏᴛᴏ (ᴜɴᴅᴇʀ 𝟻ᴍʙ) ᴛᴏ ᴛʜᴇ ᴄʟᴏᴜᴅ ᴀɴᴅ ɢɪᴠᴇs ᴀ ʟɪɴᴋ.
 ⦿ /tr ➠ ᴛʀᴀɴsʟᴀᴛᴇs ᴛᴇxᴛ.
 ⦿ /google ➠ sᴇᴀʀᴄʜᴇs ғᴏʀ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴏɴ ɢᴏᴏɢʟᴇ.
-⦿ /stack ➠ sᴇᴀʀᴄʜᴇs ғᴏʀ ᴘʀᴏɢʀᴀᴍᴍɪɴɢ-ʀᴇʟᴀᴛᴇᴅ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴏɴ sᴛᴀᴄᴋ ᴏᴠᴇʀғʟᴏᴡ.
+⦿ /gemini ➠ ᴀʙᴏᴜᴛ ᴀɴʏ ǫᴜᴇʀʏ ᴇx - /gemini lord ram
 '''
 
     HELP_Image = '''Iᴍᴀɢᴇ
 
 Iᴍᴀɢᴇ ᴄᴏᴍᴍᴀɴᴅꜱ:
 
-⦿ /draw ➠ ɢᴇɴᴇʀᴀᴛᴇs ᴀ ᴅʀᴀᴡɪɴɢ ʙᴀsᴇᴅ ᴏɴ ᴀ ɢɪᴠᴇɴ ᴘᴏʀᴏᴍᴘᴛ.
 ⦿ /image ➠ sᴇᴀʀᴄʜᴇs ғᴏʀ ᴀɴ ɪᴍᴀɢᴇ ʙᴀsᴇᴅ ᴏɴ ᴀ ɢɪᴠᴇɴ ᴋᴇʏᴡᴏʀᴅ.
-⦿ /upscale ➠ ʀᴇᴘʟʏ ᴛᴏ ᴀɴ ɪᴍᴀɢᴇ ᴛᴏ ᴜᴘsᴄᴀʟᴇ ɪᴛ ᴀɴᴅ ɪᴍᴘʀᴏᴠᴇ ɪᴛs ǫᴜᴀʟɪᴛʏ.
 '''
     HELP_Action = '''Aᴄᴛɪᴏɴ
 
@@ -112,19 +104,19 @@ Admins only:
  ❍ /tmute <userhandle> x(m/h/d): mutes a user for x time. (via handle, or reply). m = minutes, h = hours, d = days.
  ❍ /unmute <userhandle>: unmutes a user. Can also be used as a reply, muting the replied to user.
 __
-𝐒ᴘᴇᴄɪᴀʟ 𝐂ᴏᴍᴍᴀɴᴅs 𝐒ᴜᴘᴘᴏʀᴛ 𝐀ʟʟ 𝐄xᴀᴍᴘʟᴇ  - 𝚈𝚞𝚖𝚒 𝚋𝚊𝚗 𝚈𝚞𝚖𝚒 𝚖𝚞𝚝𝚎 𝚈𝚞𝚖𝚒 𝚙𝚛𝚘𝚖𝚘𝚝𝚎 ..... 𝚎𝚝𝚌
+𝐒ᴘᴇᴄɪᴀʟ 𝐂ᴏᴍᴍᴀɴᴅs 𝐒ᴜᴘᴘᴏʀᴛ 𝐀ʟʟ 𝐄xᴀᴍᴘʟᴇ  -  Sonali 𝚋𝚊𝚗 Sonali 𝚖𝚞𝚝𝚎 Sonali 𝚙𝚛𝚘𝚖𝚘𝚝𝚎 ..... 𝚎𝚝𝚌
 '''
     HELP_Search = '''Sᴇᴀʀᴄʜ
 
 Sᴇᴀʀᴄʜ ᴄᴏᴍᴍᴀɴᴅꜱ:
 
 • /google <query> : Search the google for the given query.
-• /anime <query>  : Search myanimelist for the given query.
+• /app <query>  : Search playstore apps for the given query.
 • /stack <query>  : Search stackoverflow for the given query.
 • /image (/imgs) <query> : Get the images regarding to your query
 
 Example:
-/google pyrogram: return top 5 reuslts.
+/google hindi songs: return top 5 reuslts.
 '''
 
     HELP_Font = '''ғᴏɴᴛ
@@ -137,28 +129,6 @@ Example:
 
 ◌ /font [ᴛᴇxᴛ]
 '''
-    HELP_Game = '''ɢᴀᴍᴇs
-
-ʜᴇʀᴇ ɪs ᴛʜᴇ ʜᴇʟᴘ ғᴏʀ ᴛʜᴇ ɢᴀᴍᴇs ᴍᴏᴅᴜʟᴇ:
-ɢᴀᴍᴇs ᴍᴏᴅᴜʟᴇ:
-
-ʜᴇʀᴇ ᴀʀᴇ sᴏᴍᴇ ᴍɪɴɪ ɢᴀᴍᴇs ғᴏʀ ʏᴏᴜ ᴛᴏ ᴘʟᴀʏ!
-
-◌ /toss [ᴛᴏss ᴀ ᴄᴏɪɴ]
-
-◌ /roll [ʀᴏʟʟ ᴀ ᴅɪᴄᴇ]
-
-◌ /dart [ᴛʜʀᴏᴡ ᴀ ᴅᴀʀᴛ]
-
-◌ /slot [Jᴀᴄᴋᴘᴏᴛ ᴍᴀᴄʜɪɴᴇ]
-
-◌ /bowling [ʙᴏᴡʟɪɴɢ ɢᴀᴍᴇ]
-
-◌ /basket [ʙᴀsᴋᴇᴛʙᴀʟʟ ɢᴀᴍᴇ]
-
-◌ /football [ғᴏᴏᴛʙᴀʟʟ ɢᴀᴍᴇ]
-'''
-    HELP_TG = '''Ⓣ-ɢʀᴀᴘʜ
 
 Ⓣ-ɢʀᴀᴘʜ ᴄᴏᴍᴍᴀɴᴅꜱ:
 
@@ -167,58 +137,8 @@ Example:
 ◌ /tgm [ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏ ᴍᴇᴅɪᴀ]
 ◌ /tgt [ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏ ᴍᴇᴅɪᴀ]
 '''
-    HELP_Imposter = '''ɪᴍᴘᴏsᴛᴇʀ
-
-ʜᴇʀᴇ ɪs ᴛʜᴇ ʜᴇʟᴘ ғᴏʀ ᴛʜᴇ ɪᴍᴘᴏsᴛᴇʀ ᴍᴏᴅᴜʟᴇ:
-
-ɪᴍᴘᴏsᴛᴇʀ ᴍᴏᴅᴜʟᴇ:
-
-◌ /imposter on
-◌ /imposter off
-'''
-    HELP_TD = '''Tʀᴜᴛʜ-ᗪᴀʀᴇ
-
-ʜᴇʀᴇ ɪs ᴛʜᴇ ʜᴇʟᴘ ғᴏʀ ᴛʜᴇ Tʀᴜᴛʜ-ᗪᴀʀᴇ ᴍᴏᴅᴜʟᴇ:
-
-ᴛʀᴜᴛʜ ᴀɴᴅ ᴅᴀʀᴇ
-◌ /truth : sᴇɴᴅs ᴀ ʀᴀɴᴅᴏᴍ ᴛʀᴜᴛʜ sᴛʀɪɴɢ.
-◌ /dare : sᴇɴᴅs ᴀ ʀᴀɴᴅᴏᴍ ᴅᴀʀᴇ sᴛʀɪɴɢ.
-'''
-    HELP_HT = '''ʜᴀsᴛᴀɢ
-
-ʜᴇʀᴇ ɪs ᴛʜᴇ ʜᴇʟᴘ ғᴏʀ ᴛʜᴇ ʜᴀsᴛᴀɢ ᴍᴏᴅᴜʟᴇ:
-
-ʜᴀsᴛᴀɢ
-◌ /hastag : [ᴛᴇxᴛ]
-'''
-    HELP_TTS = '''ᴛᴛs
-
-ʜᴇʀᴇ ɪs ᴛʜᴇ ʜᴇʟᴘ ғᴏʀ ᴛʜᴇ ᴛᴛs ᴍᴏᴅᴜʟᴇ:
-
-❀ ᴛᴛs
-◌ /tts : [ᴛᴇxᴛ]
-
-◌ ᴜsᴀɢᴇ ➛ ᴛᴇxᴛ ᴛᴏ ᴀᴜᴅɪᴏ
-'''
-    HELP_Fun = '''ғᴜɴ
-
-ʜᴇʀᴇ ɪs ᴛʜᴇ ʜᴇʟᴘ ғᴏʀ ᴛʜᴇ ғᴜɴ ᴍᴏᴅᴜʟᴇ:
-ᴡɪsʜ ᴍᴏᴅᴜʟᴇ:
-
 ◌ /wish : ᴀᴅᴅ ʏᴏᴜʀ ᴡɪsʜ ᴀɴᴅ sᴇᴇ ɪᴛs ᴘᴏssɪʙɪʟɪᴛʏ!
 
-ᴍᴏʀᴇ sᴛᴜғғ:
-◌ /sigma [ᴄʜᴇᴄᴋ ʏᴏᴜʀ sɪɢᴍᴀɴᴇss]
-◌ /cute [ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴄᴜᴛᴇɴᴇss]
-◌ /horny [ᴄʜᴇᴄᴋ ʏᴏᴜʀ ʜᴏʀɴʏɴᴇss]
-◌ /lesbo [ᴄʜᴇᴄᴋ ʜᴏᴡ ᴍᴜᴄʜ ʟᴇᴢʙɪᴀɴ ʏᴏᴜ ᴀʀᴇ]
-◌ /depressed [ᴄʜᴇᴄᴋ ʜᴏᴡ ᴍᴜᴄʜ ᴅᴇᴘʀᴇssᴇᴅ ʏᴏᴜ ᴀʀᴇ]
-◌ /gay [ᴄʜᴇᴄᴋ ʜᴏᴡ ᴍᴜᴄʜ ɢᴀʏ ʏᴏᴜ ᴀʀᴇ]
-◌ /rand [ᴄʜᴇᴄᴋ ʜᴏᴡ ᴍᴜᴄʜ ʀᴀɴᴅ ʏᴏᴜ ᴀʀᴇ]
-◌ /bkl [ᴄʜᴇᴄᴋ ʜᴏᴡ ᴍᴜᴄʜ ʙᴋʟ ʏᴏᴜ ᴀʀᴇ]
-◌ /boobs [ᴄʜᴇᴄᴋ ʏᴏᴜʀ ʙᴏᴏʙɪᴇs sɪᴢᴇ]
-◌ /dick [ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴅɪᴄᴋ sɪᴢᴇ]
-'''
     HELP_Q = '''ǫᴜᴏᴛʟʏ
 
 ʜᴇʀᴇ ɪs ᴛʜᴇ ʜᴇʟᴘ ғᴏʀ ᴛʜᴇ ǫᴜᴏᴛʟʏ ᴍᴏᴅᴜʟᴇ:
