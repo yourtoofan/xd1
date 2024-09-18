@@ -149,6 +149,7 @@ HELP_Couples = '''ᴄᴏᴜᴘʟᴇs
 ◌ /couples : ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴀɴᴅ sᴇᴇ ɢʀᴏᴜᴘs ᴄᴏᴜᴘʟᴇs.
 '''
 
+
     fullpromote = {
     'can_change_info': True,
     'can_post_messages': True,
