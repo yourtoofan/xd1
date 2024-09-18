@@ -34,7 +34,7 @@ OWNER_ID = int(getenv("OWNER_ID", 6051510669))
 
 
 # make your bots privacy from telegra.ph and put your url here 
-PRIVACY_LINK = getenv("PRIVACY_LINK", "https://graph.org/PRIVACY-FOR-TEAM-PURVI-BOTS-09-18"
+PRIVACY_LINK = getenv("PRIVACY_LINK", "https://graph.org/PRIVACY-FOR-TEAM-PURVI-BOTS-09-18")
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
