@@ -5,6 +5,9 @@ from pyrogram import filters
 
 from SONALI import app
 from SafoneAPI import SafoneAPI
+from search_engine_parser.core.engines.stackoverflow import \
+    Search as StackSearch
+from search_engine_parser.core.exceptions import NoResultsFound, NoResultsOrTrafficError
 
 
 @app.on_message(filters.command(["google", "gle"]))
