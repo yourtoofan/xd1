@@ -20,64 +20,17 @@ async def google(bot, message):
         user_input = " ".join(message.command[1:])
     b = await message.reply_text("Sᴇᴀʀᴄʜɪɴɢ ᴏɴ Gᴏᴏɢʟᴇ....")
     try:
-        result = await gsearch.async_search(query)
-        keyboard = ikb(
-            [
-                [
-                    (
-                        f"{result[0]['titles']}",
-                        f"{result[0]['links']}",
-                        "url",
-                    ),
-                ],
-                [
-                    (
-                        f"{result[1]['titles']}",
-                        f"{result[1]['links']}",
-                        "url",
-                    ),
-                ],
-                [
-                    (
-                        f"{result[2]['titles']}",
-                        f"{result[2]['links']}",
-                        "url",
-                    ),
-                ],
-                [
-                    (
-                        f"{result[3]['titles']}",
-                        f"{result[3]['links']}",
-                        "url",
-                    ),
-                ],
-                [
-                    (
-                        f"{result[4]['titles']}",
-                        f"{result[4]['links']}",
-                        "url",
-                    ),
-                ],
-            ]
+        a = search(user_input, advanced=True)
+        txt = f"Search Query: {user_input}\n\nresults"
+        for result in a:
+            txt += f"\n\n[❍ {result.title}]({result.url})\n<b>{result.description}</b>"
+        await b.edit(
+            txt,
+            disable_web_page_preview=True,
         )
-
-        txt = f"ʜᴇʀᴇ ᴀʀᴇ ᴛʜᴇ ʀᴇsᴜʟᴛs ᴏғ ʀǫᴜᴇsᴛᴇᴅ : {query.title()}"
-        await to_del.delete()
-        await msg.reply_text(txt, reply_markup=keyboard)
-        return
-    except NoResultsFound:
-        await to_del.delete()
-        await msg.reply_text("ɴᴏ ʀᴇsᴜʟᴛ ғᴏᴜɴᴅ ᴄᴏʀʀᴇsᴘᴏɴᴅɪɴɢ ᴛᴏ ʏᴏᴜʀ ǫᴜᴇʀʏ")
-        return
-    except NoResultsOrTrafficError:
-        await to_del.delete()
-        await msg.reply_text("**ɴᴏ ʀᴇsᴜʟᴛ ғᴏᴜɴᴅ ᴅᴜᴇ ᴛᴏ ᴛᴏᴏ ᴍᴀɴʏ ᴛʀᴀғғɪᴄ")
-        return
     except Exception as e:
-        await to_del.delete()
-        await msg.reply_text(f"sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ :\nʀᴇᴘᴏʀᴛ ᴀᴛ ɪᴛ @PURVI_SUPPORT")
-        print(f"error : {e}")
-        return
+        await b.edit(e)
+        logging.exception(e)
 
 
 @app.on_message(filters.command(["app", "apps"]))
