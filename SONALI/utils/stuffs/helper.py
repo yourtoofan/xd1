@@ -171,4 +171,4 @@ HELP_Couples = '''ᴄᴏᴜᴘʟᴇs
     'can_pin_messages': False,
     'can_promote_members': False,
     'can_manage_chat': True,
-    }
+}
