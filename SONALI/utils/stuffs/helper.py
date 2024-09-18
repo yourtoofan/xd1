@@ -149,7 +149,6 @@ HELP_Couples = '''ᴄᴏᴜᴘʟᴇs
 ◌ /couples : ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴀɴᴅ sᴇᴇ ɢʀᴏᴜᴘs ᴄᴏᴜᴘʟᴇs.
 '''
 
-        
     fullpromote = {
     'can_change_info': True,
     'can_post_messages': True,
@@ -172,23 +171,4 @@ HELP_Couples = '''ᴄᴏᴜᴘʟᴇs
     'can_pin_messages': False,
     'can_promote_members': False,
     'can_manage_chat': True,
-}
-
-HELP = """
-❍ ᴛᴇʟᴇɢʀᴀᴘʜ ᴜᴘʟᴏᴀᴅ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs
-
-❍ ᴜsᴇ ᴛʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴛᴏ ᴜᴘʟᴏᴀᴅ ᴍᴇᴅɪᴀ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴘʜ:
-
-❍ /tgm: ᴜᴘʟᴏᴀᴅ ʀᴇᴘʟɪᴇᴅ ᴍᴇᴅɪᴀ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴘʜ.
-❍ /tgt: sᴀᴍᴇ ᴀs /tgm.
-❍ /telegraph: sᴀᴍᴇ ᴀs /tgm.
-❍ /tl: sᴀᴍᴇ ᴀs /tgm.
-
-ᴇxᴀᴍᴘʟᴇ:
-❍ ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴘʜᴏᴛᴏ ᴏʀ ᴠɪᴅᴇᴏ ᴡɪᴛʜ /tgm ᴛᴏ ᴜᴘʟᴏᴀᴅ ɪᴛ.
-
-ɴᴏᴛᴇ:
-❍ ʏᴏᴜ ᴍᴜsᴛ ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴍᴇᴅɪᴀ ғɪʟᴇ ғᴏʀ ᴛʜᴇ ᴜᴘʟᴏᴀᴅ ᴛᴏ ᴡᴏʀᴋ.
-"""
-
-MODULE = "Tᴇʟᴇɢʀᴀᴘʜ"
+    }        
