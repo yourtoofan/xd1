@@ -1,6 +1,7 @@
 # Netscape HTTP Cookie File
 # https://curl.haxx.se/rfc/cookie_spec.html
 # This is a generated file! Do not edit.
+
 .youtube.com	TRUE	/	TRUE	1741490156	VISITOR_INFO1_LIVE	I9EreKnerv8
 .youtube.com	TRUE	/	TRUE	1741490156	VISITOR_PRIVACY_METADATA	CgJJThIEGgAgTA%3D%3D
 .youtube.com	TRUE	/	TRUE	1725948358	GPS	1
