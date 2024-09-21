@@ -1,12 +1,3 @@
-#
-# Copyright (C) 2024 by TheTeamVivek@Github, < https://github.com/TheTeamVivek >.
-#
-# This file is part of < https://github.com/TheTeamVivek/YukkiMusic > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TheTeamVivek/YukkiMusic/blob/master/LICENSE >
-#
-# All rights reserved.
-#
 import asyncio
 import os
 import random
@@ -24,7 +15,7 @@ from SONALI.utils.formatters import time_to_seconds
 
 
 def cookies():
-    cookie_dir = "YukkiMusic/utils/cookies"
+    cookie_dir = "SONALI/utils/cookies"
     cookies_files = [f for f in os.listdir(cookie_dir) if f.endswith(".txt")]
 
     cookie_file = os.path.join(cookie_dir, random.choice(cookies_files))
