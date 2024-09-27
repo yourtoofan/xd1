@@ -21,4 +21,4 @@ async def get_qthumb(vidid):
             thumbnail = result["thumbnails"][0]["url"].split("?")[0]
         return thumbnail
     except Exception as e:
-        return YOUTUBE_IMG_URLE_IMG_URL
+        return YOUTUBE_IMG_URL
